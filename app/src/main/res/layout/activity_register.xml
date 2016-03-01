@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aregister_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/register_image"
+    tools:context="in.jiyofit.the_app.RegisterActivity">
+
+    <EditText
+        android:id="@+id/aregister_et_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/email"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:background="@color/translucentWhite"/>
+
+    <EditText
+        android:id="@+id/aregister_et_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/password"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        android:textSize="18sp"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:background="@color/translucentWhite"/>
+
+    <EditText
+        android:id="@+id/aregister_et_repassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/aregister_repassword"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        android:textSize="18sp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@color/translucentWhite"/>
+
+    <Button
+        android:id="@+id/aregister_btn_signup"
+        android:onClick="userRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/aregister_signup"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="@color/translucentBlack"/>
+
+</LinearLayout>

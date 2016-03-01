@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.jiyofit.the_app.UserFeedbackActivity">
+
+    <LinearLayout
+        android:id="@+id/auserfeedback_layout_bugquestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/auserfeedback_bugquestion" />
+
+        <RadioGroup
+            android:id="@+id/auserfeedback_rg_bugpresence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/auserfeedback_rb_bugyes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/yes" />
+
+            <RadioButton
+                android:id="@+id/auserfeedback_rb_bugno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/no" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/auserfeedback_layout_bugquestion"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp">
+
+        <ScrollView
+            android:id="@+id/auserfeedback_sv_feedback"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/auserfeedback_et_userfeedback"
+                android:hint="@string/auserfeedback_askfeedback"
+                android:minHeight="100dp"
+                android:padding="10dp"
+                android:background="@drawable/shadow_background"/>
+
+        </ScrollView>
+
+        <EditText
+            android:id="@+id/auserfeedback_et_phonenumber"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/auserfeedback_phonenumber"
+            android:inputType="phone"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/auserfeedback_btn_userfeedbacksubmit"
+            android:onClick="submitFeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/auserfeedback_submituserfeedback"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

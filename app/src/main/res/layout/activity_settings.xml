@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/asettings_btn_instructionvolume"
+            android:tag="instruction_volume"
+            android:onClick="callSettingPreference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="start"
+            android:text="@string/asettings_instructionvolume"
+            android:background="@color/transparent"/>
+
+        <include layout="@layout/settings_underline" />
+
+        <Button
+            android:id="@+id/asettings_btn_musicvolume"
+            android:tag="music_volume"
+            android:onClick="callSettingPreference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="start"
+            android:text="@string/asettings_musicvolume"
+            android:background="@color/transparent"/>
+
+        <include layout="@layout/settings_underline" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/asettings_layout_preference"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:background="@drawable/shadow_background">
+
+        <FrameLayout
+            android:id="@+id/asettings_layout_overlaycontainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/asettings_btn_closepreference"
+            android:onClick="closePreferenceFragment"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/ok"
+            android:textColor="@color/primaryText"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@color/dividerColor" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

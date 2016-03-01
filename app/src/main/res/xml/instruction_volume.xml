@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SeekBarPreference
+        android:height="100dp"
+        android:width="200dp"
+        android:defaultValue="22"
+        android:title="Instruction Volume"
+        android:summary="Set the volume of the instructions"
+        android:key="InstructionVolume"
+        android:max="100" />
+
+</PreferenceScreen>

@@ -1,0 +1,144 @@
+<resources>
+    <!--Common Strings-->
+    <string name="ok">OK</string>
+    <string name="email">Email ID</string>
+    <string name="password">Password</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="submit">Submit</string>
+
+    <!--Manifest-->
+    <string name="app_name">The_App_Sports_Hackathon</string>
+    <string name="facebook_app_id">997520850319994</string>
+    <string name="title_activity_first">Home</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_exercise">Exercise</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_social">Social Media</string>
+    <string name="title_activity_qna">Questions and Answers</string>
+    <string name="title_activity_hire_coach">Hire Coach</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_main_settings">Settings</string>
+    <string name="title_activity_user_feedback">Feedback</string>
+    <string name="title_activity_statboard">StatBoard</string>
+    <string name="title_activity_performance">Performance</string>
+
+    <!--BaseActivity-->
+    <string-array name="menu">
+        <item>Home</item>
+        <item>Exercise</item>
+        <item>StatBoard</item>
+        <item>Performance</item>
+        <item>Social Media</item>
+        <item>Profile</item>
+    </string-array>
+    <string-array name="activity_names">
+        <item>FirstActivity</item>
+        <item>ExerciseActivity</item>
+        <item>StatboardActivity</item>
+        <item>PerformanceActivity</item>
+        <item>SocialActivity</item>
+        <item>ProfileActivity</item>
+    </string-array>
+
+    <!--FirstActivity-->
+    <string name="opendrawer">Open</string>
+    <string name="closedrawer">Close</string>
+
+    <!--FeedbackFragment-->
+    <string name="ffeedback_leaveworkout">odkZmV NksMks</string>
+    <string name="ffeedback_tooeasy">cgqr vklku</string>
+    <string name="ffeedback_justright">lgh</string>
+    <string name="ffeedback_toohard">dkQh dBhu</string>
+    <string name="ffeedback_bannerad">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!--LoginActivity-->
+    <string name="alogin_login">Login</string>
+    <string name="alogin_signupnow">Signup Now</string>
+
+    <!--QnAActivity-->
+
+    <!--RegisterActivity-->
+    <string name="aregister_repassword">Retype Password</string>
+    <string name="aregister_signup">Signup</string>
+
+    <!--SettingsActivity-->
+    <string name="asettings_instructionvolume">Adjust Instruction Volume</string>
+    <string name="asettings_musicvolume">Adjust Music Volume</string>
+
+    <!-- UserFeedbackActivity -->
+    <string name="auserfeedback_bugquestion">Is there a software problem?</string>
+    <string name="auserfeedback_askfeedback">Please provide the feedback here:</string>
+    <string name="auserfeedback_submituserfeedback">Submit Feedback</string>
+    <string name="auserfeedback_phonenumber">Mobile Number</string>
+
+    <!--ProfileActivity-->
+    <string name="aprofile_save">Save Profile</string>
+    <string name="aprofile_goal">What is your fitness goal?</string>
+    <string name="aprofile_age">Age (in years): </string>
+    <string name="aprofile_firstname">First Name: </string>
+    <string name="aprofile_height">Height: </string>
+    <string name="aprofile_feet">Feet: </string>
+    <string name="aprofile_inches">Inches: </string>
+    <string name="aprofile_weight">Weight (in kgs): </string>
+    <string name="aprofile_gender">Gender: </string>
+    <string name="aprofile_male">Male </string>
+    <string name="aprofile_female">Female </string>
+    <string-array name="feet">
+        <item></item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="inches">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="goal">
+        <item></item>
+        <item>Build Muscles</item>
+        <item>Lose Weight</item>
+    </string-array>
+
+    <!--coach_row-->
+    <string name="rcoach_trainingphilosophy">Training Philosophy</string>
+    <string name="rcoach_hire">Hire</string>
+    <string name="rcoach_showprices">Show Prices</string>
+
+    <!--social_row-->
+    <string name="rsocial_addcomment">Add a Comment</string>
+
+    <string name="one_arm_row_dn">,d gkFk jks</string>
+    <string name="rest_dn">foJke</string>
+    <string name="pushups_dn">iq’k vIl</string>
+    <string name="mountain_climbers_dn">igkMh nksM</string>
+    <string name="arnold_press_dn">vkuZYM izsl</string>
+    <string name="one_arm_row_i1">ihB iqjk le; lhèkh j[kh;s</string>
+    <string name="pushups_i1">ihB vkSj ?kqVus lhèks gksus pkfg;</string>
+    <string name="mountain_climbers_i1">iSj dqnds tehuis Mkys</string>
+    <string name="arnold_press_i1">otu uhps ykrs dykb;ka ?kqekbZ;s</string>
+    <string name="one_arm_row_i2">otudks Nkrh rd mBkb;</string>
+    <string name="pushups_i2">tehudks ?kqVuk ugh Nq,</string>
+    <string name="mountain_climbers_i2">fiNys iSjdk ?kqVuk >qdkbZ;s</string>
+    <string name="arnold_press_i2">mij gkFk lhèkk jf[k;s</string>
+
+    <!--first_menu-->
+    <string name="action_settings">Settings</string>
+    <string name="action_feedback">Feedback</string>
+
+    <!--xml-->
+    <string name="pref_label_instruction_volume">Instruction Volume</string>
+    <string name="pref_label_music_volume">Music Volume</string>
+</resources>
